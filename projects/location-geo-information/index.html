@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Geo Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+
+
+    <div class="container mt-4">
+        <div class="header mt-4">
+            <h3 class="title">Enter a location to get more information about it</h3>
+            <input type="search" class="form-control form-control-lg" name="search" id="searchLocation" placeholder="enter any location">
+        </div>
+
+        <div id="locationOuput" class="location-output mt-4">
+
+        </div>
+    </div>
+
+    <div class="alert alert-info slideInRight animated" role="alert">
+        &rarr; on your keyboard, hold down shift + s to search.
+    </div>
+
+    <script src="main.js"></script>
+    <!-- google maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdiFD_ycORnqbEBmUTm1AacKOI0sV0_mk" type="text/javascript"></script>
+</body>
+
+</html>

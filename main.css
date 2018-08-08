@@ -9,7 +9,13 @@ main {
     margin-top: 48px;
 }
 
+.projects-cards {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
 .my-card {
-    width: 300px;
+    margin-right: 32px;
+    width: 280px;
     height: 342px;
 }

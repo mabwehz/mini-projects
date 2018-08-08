@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Monda');
+
+/* font-family: 'Luckiest Guy', cursive;
+font-family: 'Monda', sans-serif;
+font-family: 'Monoton', cursive; */
+
+body {
+    background-color: #cee3ba !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+}
+
+.header input[type="search"] {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.location-output {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.card {
+    width: 42rem !important;
+}
+
+.alert-info {
+    position: absolute;
+    float: right;
+}
+
+@keyframes searchAnimation {
+    from {
+        color: red;
+    }
+    to {
+        color: green;
+    }
+}
