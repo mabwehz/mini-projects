@@ -1,4 +1,4 @@
-Mabweh Isaac's portfolio
+# A group of simple web projects
 
 1. Website-bookmarker
 2. Social Auth using facebok
@@ -8,5 +8,9 @@ Mabweh Isaac's portfolio
 6. Google Geocode API playground
 7. Weight Converter
 
-# TODO
-- Add proper documentation
+## Screenshot
+
+![alt text](./images/play_projects_screenshot.png "Title")
+
+## TODO
+- Deploy to a domain
