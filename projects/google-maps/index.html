@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Church mapper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Church mapper</h1>
+            <div class="toggler">
+                <span>Show only church cluster</i></span>
+                <label class="switch">
+                    <input id="switchCheckbox" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+        <div id="map" class="map-container"></div>
+        <div class="footer">
+                <h5>Click any where on the map to mark a location of a church</h5>
+                <h5>Number of marked churches: <span></span></h5>
+        </div>
+    </div>
+
+
+    <!-- scripts -->
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdiFD_ycORnqbEBmUTm1AacKOI0sV0_mk&callback=initMap"
+    type="text/javascript"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

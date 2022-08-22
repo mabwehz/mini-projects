@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Auth</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script src="facebook.js"></script>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Social Auth</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li id="fbLogOutBtn" class="fb-log-out-btn"><a href="#" onClick="logout()">Logout</a></li>
+                <!-- facebook login button -->
+                <fb:login-button id="fbLogInBtn" scope="public_profile,email, user_birthday, user_age_range, user_posts, user_gender, user_friends" onlogin="checkLoginState();">
+                </fb:login-button>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h3 id="heading">Log in to view your profile</h3>
+        <div id="profileView" class="profile-view mt-3">Your facebook PROFILE</div>
+        <div id="feedView" class="feed-view mt-3">Your facebook FEED</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

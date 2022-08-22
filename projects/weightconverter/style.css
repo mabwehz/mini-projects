@@ -1,0 +1,22 @@
+body {
+    margin-top: 70px;
+    background-color: #333;
+    color: white;
+}
+
+.badge:hover {
+    cursor: pointer;
+}
+
+.weight-selector {
+    display: flex;
+    justify-content: center;
+}
+
+.weight-selector span {
+    flex: 1 1 auto;
+}
+
+.low-opacity {
+    opacity: 0.5;
+}

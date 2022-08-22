@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 48px;
+}
+
+.projects-cards {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.my-card {
+    margin-right: 32px;
+    width: 280px;
+    height: 342px;
+}
