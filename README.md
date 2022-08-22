@@ -1,6 +1,3 @@
-# mabweh-play-projects
-My play projects
-=======
 # A group of simple web projects
 
 1. Website-bookmarker
